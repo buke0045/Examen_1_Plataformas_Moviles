@@ -16,11 +16,10 @@ public class CarroDiesel extends Carro{
 	
 	@Override
 	public void tipoCarroOffRoad() {
-		System.out.println("------------------------");
 		System.out.println("Especificaciones:");
-		System.out.println("Motor: " + motor.tipo());
-		System.out.println("Suspensiones: " + suspensiones.tipo());
-		System.out.println("Relaciones Diferenciales: " + relacionesDiferenciales.tipo());
+		System.out.println("    Motor: " + motor.tipo());
+		System.out.println("    Suspensiones: " + suspensiones.tipo());
+		System.out.println("    Relaciones Diferenciales: " + relacionesDiferenciales.tipo());
 		System.out.println("Carro Diesel");
 		System.out.println("------------------------");
 	}

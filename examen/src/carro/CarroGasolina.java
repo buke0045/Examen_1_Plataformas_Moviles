@@ -16,11 +16,10 @@ public class CarroGasolina extends Carro{
 	}
 	@Override
 	public void tipoCarroOffRoad() {
-		System.out.println("------------------------");
 		System.out.println("Especificaciones:");
-		System.out.println("Motor: " + motor.tipo());
-		System.out.println("Suspensiones: " + suspensiones.tipo());
-		System.out.println("Relaciones Diferenciales: " + relacionesDiferenciales.tipo());
+		System.out.println("    Motor: " + motor.tipo());
+		System.out.println("    Suspensiones: " + suspensiones.tipo());
+		System.out.println("    Relaciones Diferenciales: " + relacionesDiferenciales.tipo());
 		System.out.println("Carro Gasolina");
 		System.out.println("------------------------");
 	}
