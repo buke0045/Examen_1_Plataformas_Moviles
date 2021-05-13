@@ -9,6 +9,8 @@ public class CarroGasolina extends Carro{
 	private final RelacionesDiferenciales relacionesDiferenciales;
 	private final Suspension suspensiones;
 	
+	//COMPOSICION
+	//INYECCION DE DEPENDENCIAS
 	public CarroGasolina(Motor m, RelacionesDiferenciales r, Suspension s) {
 		this.motor = m;
 		this.relacionesDiferenciales = r;

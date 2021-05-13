@@ -8,6 +8,8 @@ public class CarroDiesel extends Carro{
 	private final RelacionesDiferenciales relacionesDiferenciales;
 	private final Suspension suspensiones;
 	
+	//INYECCION DE DEPENDENCIAS AL RECIBIR DIFERENTES COMPONENTES
+	//COMPOSICION
 	public CarroDiesel(Motor m, RelacionesDiferenciales r, Suspension s) {
 		this.motor = m;
 		this.relacionesDiferenciales = r;
